@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Veggie-food</title>
+    <title>Omnifood</title>
     <!-- Подключение "нормального" отображения в разных браузерах -->
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <!-- Подключение грид сетки -->
@@ -22,6 +22,7 @@
         <nav>
             <div class="row">
                 <img class="logo" src="resources/img/logo-white.png" alt="Omnifood logo">
+                <img class="logo-black" src="resources/img/logo.png" alt="Omnifood logo">
                 <ul class="main-nav">
                     <li><a href="#">Food delivery</a></li>
                     <li><a href="#">How it works</a></li>
@@ -38,7 +39,7 @@
     </header>
     <main>
 <!-- FEATURE SECTION -->
-        <section class="section-features">
+        <section class="section-features js--section-features">
             <div class="row">
                 <h2>Get food fast &mdash; not fast food</h2>
                 <p class="long-copy">
@@ -461,9 +462,24 @@
         </div>
         <div class="row">
             <p>
-                Copyright &copy; 2015 by Omnifood. All rights reserved.
+                Copyright &copy; 2020 by Omnifood. All rights reserved.
             </p>
         </div>
     </footer>
+
+    <!-- Подключение библиотеки jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Waypoints -->
+
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+
+    <!-- Определение новых свойств HTML5 для браузеров  -->
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+
+    <!-- Emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8. -->
+    <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+
+    <script src="resources/js/script.js"></script>
 </body>
 </html>
