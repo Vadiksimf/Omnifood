@@ -60,7 +60,47 @@
         margin: 0 0 3% 0;
     }
 
+    /* Настройки мобильной навигации - бургера */
+
     .main-nav { display: none; }
+
+    .mobile-nav-icon { 
+        display: inline-block; 
+        margin-top: 50px;
+    }
+
+    .main-nav { 
+        float: left; 
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .main-nav li { 
+        display: block;
+        margin-left: 0px; 
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: none;
+        padding: 5px 0;
+    }
+
+    .logo-black {
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    .sticky i {
+        color: #555;
+    }
+
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+
+
+    /*----------------------------------------*/
 
     h1 {font-size: 180%;}
     h2 { font-size: 150%; }
