@@ -103,4 +103,22 @@ $(document).ready(function() { // Код запускается только к�
         }
     });
 
+    /* Создание Карты */
+
+    var map = new GMaps({
+        div: '.map',
+        lat: 47.2218107,
+        lng: 39.73,
+        zoom: 14
+      });
+
+    map.addMarker({
+    lat: 47.2218107,
+    lng: 39.7138593,
+    title: 'Rostov',
+    infoWindow: {
+        content: '<p>Our Rostov HQ</p>'
+      }
+    });
+
 });
